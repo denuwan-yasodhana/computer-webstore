@@ -1,0 +1,68 @@
+.zoom-in-out-box {
+   
+    animation: zoom-in-zoom-out 3s ease infinite;
+    font-family: 'Courier New', monospace;
+    color: rgb(121, 218, 199);
+    font-size: 30px;
+    font-weight: bolder;
+    
+  }
+  #F-catogory{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 30px;
+
+  }
+  .container{
+    text-align: center;
+  }
+  .a{
+    text-decoration: none;
+  }
+  .a:hover{
+    background-color: rgb(0, 0, 0);
+
+  }
+
+  
+  #P-3-1:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+    
+  }
+  #P-3-2:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  .container overflow-hidden{
+      background-color: black;
+  }
+  .p-3 border bg-light{
+      background-image: url("Pre-built-Gaming-PC.png");
+  }
+
+
+ 

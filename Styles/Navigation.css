@@ -1,0 +1,49 @@
+
+  #basic-addon1 {
+    border-right: 6px solid #e9ecef;
+    width: 70px;
+  }
+
+  .bg-accent {
+    background: #213150
+  }
+
+  #brandLogo {
+    height: 40px;
+  }
+
+  .fa-shopping-cart {
+    font-size: 2.5rem
+  }
+
+  #cartTotal {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -20px;
+  }
+
+  #sideDrawer {
+    position: fixed;
+    top: 0;
+    width: 60%;
+    max-width: 320px;
+    background: #fff;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.4);
+    height: 100%;
+    overflow: auto;
+    
+  }
+ 
+
+  #closeBtn {
+    float: right;
+    margin-right: 20px;
+    cursor: pointer
+  } 
+  #secondNav {
+      font-size: medium;
+  }
+  .btn-group{
+    margin-right:  5;
+  }
+ 

@@ -1,0 +1,78 @@
+.i1{
+
+    margin:0;
+    padding:0;
+    height: 40px;
+    width: 50px;
+}
+
+body{
+
+    background-color:#15033a;
+}
+
+.layout{
+
+    margin:auto;
+    padding:0;
+}
+
+.mainimg{
+
+    margin:auto;
+    height: 50%;
+    width: 50%;
+    display: block;
+    
+}
+
+input[type=text]{
+    background-color: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+input[type=number]{
+    background-color: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    transition: width 2s;
+   
+  
+}
+
+input[type=number]:hover{
+    border-bottom:3px solid #290473;
+    
+}
+
+.button{
+    width:25%;
+    transition:width 1s;
+}
+
+.button:hover{
+    width: 50%;
+    background-color: rgb(9, 15, 112);
+    
+
+}
+form{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+span{
+    padding: 3%;
+}
+    
+
+

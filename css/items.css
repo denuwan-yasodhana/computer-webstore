@@ -1,0 +1,21 @@
+.filter{
+    
+    width:25%;
+    background-color: red;
+    
+}
+
+.products{
+    
+    width:75%;
+    background-color: blue;
+}
+
+.item{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    clear:both;
+}
